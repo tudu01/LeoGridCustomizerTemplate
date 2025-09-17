@@ -1,0 +1,44 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+out/
+dist/
+build/
+coverage/
+
+# PCF / Power Platform build artifacts
+**/GeneratedArtifacts/
+**/out/controls/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.cache
+**/*.csproj.user
+**/*.cdsproj.user
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Env
+.env
+.env.*
+
+# Solution pack/unpack temporary
+solution/obj/
+solution/bin/
+
+# Misc
+Thumbs.db
